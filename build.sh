@@ -19,6 +19,7 @@ wget \
 gawk \
 libc-dev \
 help2man \
+sed \
 unzip"
 
 # update repo index
