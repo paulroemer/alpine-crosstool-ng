@@ -8,7 +8,7 @@ MAINTAINER roemer.paul@gmail.com paulroemer
 # ---
 
 COPY build.sh /tmp/build.sh
-RUN chmod +x /tmp/build.sh && /tmp/build.sh
+RUN chmod +x /tmp/build.sh && sync && /tmp/build.sh
 
 # add user crosstoolng
 RUN mkdir /home/theuser \
