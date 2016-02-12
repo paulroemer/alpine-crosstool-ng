@@ -20,6 +20,7 @@ gawk \
 libc-dev \
 help2man \
 sed \
+bash \
 unzip"
 
 # update repo index
